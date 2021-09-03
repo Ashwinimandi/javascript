@@ -1,0 +1,27 @@
+//console.dir(document);
+//console.log(document.domain);
+//console.log(document.URL);
+//console.log(document);
+//console.log(document.all);
+//console.log(document.all[4]);
+//document.all[4].textContent="hello"
+//var items=document.getElementsByClassName('list-group-item');
+//console.log(items);
+//console.log(items[1]);
+//items[1].textContent='hello 2';
+//items[1].getElementsByClassName.fontweight='bold';
+//items[1].getElementsByClassName.backgroundcolor='yellow';
+//var lastitem=document.querySelector('.lastItem.style.color');
+//lastitem.getElementsByClassName.colo='blue';
+//var titles=document.querySelector('.title');
+//console.log(titles);
+//titles[0].textContent='hello';
+var itemlist=document.querySelector('#items');
+//console.log(itemlist.parentNode);
+//itemlist.parentNode.style.backgroundColor="green";
+//console.log(itemlist.childNodes);
+//console.log(itemlist.children);
+//console.log(itemlist.children[1]);
+//itemlist.children[1].getElementsByClassName.backgroundColor='yellow';
+console.log(itemlist.firstChild);
+itemlist.firstElementChild.textContent='hello';
